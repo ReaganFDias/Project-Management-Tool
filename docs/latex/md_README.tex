@@ -1,0 +1,84 @@
+Using the file system as the main datastore, this tool helps manage work breakdown methodology, milestones and time management.
+
+The core elements will be strongly guided, and completion of them equates to approximately 40\% of the marks. Beyond that, students should problem solve, in a graded hierarchy of difficulty and completion to achieve higher marks.
+
+{\bfseries{It is unrealistic to expect to meet all the feature criteria listed}}
+
+Part of the task therefore involves deciding which elements to implement in order to maximise your mark.
+
+Some of the features may be best implemented using shell (bash or zsh) scripting, or could be done directly in C.
+
+Tests will be provided for 1...10, which will also define the command line arguments required (including the sub-\/command name for the features, where appropriate e.\+g. pm feature feature\+\_\+name or pm feature move new\+\_\+feature\+\_\+name ).
+
+Coursework submission will include creating project documentation (using doxygen) so code {\itshape {\bfseries{must}}} be well commented. Any shell scripts or make files included in the solution {\itshape {\bfseries{must}}} be included in the documentation. The submission itself {\itshape {\bfseries{must}}} be the U\+RL of the C\+S\+Git\+Lab repository used.\hypertarget{md_README_autotoc_md8}{}\doxysection{Core functionality\+:}\label{md_README_autotoc_md8}
+\hypertarget{md_README_autotoc_md9}{}\doxysubsection{Must (up to 10\% for each top level feature)}\label{md_README_autotoc_md9}
+
+\begin{DoxyEnumerate}
+\item Be able to create basic file structure for project
+\item Abort if requested project/feature name already exists under \textquotesingle{}root\textquotesingle{} folder. Here \textquotesingle{}root\textquotesingle{} does not mean the / root of the file system, but the folder from which the program is run.
+\begin{DoxyEnumerate}
+\item Requires checking existing file system for matching name
+\item Requires using branching ({\itshape if}) to exit program if necessary
+\end{DoxyEnumerate}
+\item Initialise git repository
+\begin{DoxyEnumerate}
+\item {\itshape {\bfseries{Should}}} set up C\+S\+Git\+Lab project etc.
+\end{DoxyEnumerate}
+\item Feature management
+\begin{DoxyEnumerate}
+\item {\itshape {\bfseries{Must}}} implement a method of having a shorthand code for feature e.\+g. F1, F2.\+1..., stored in a file.
+\item {\itshape {\bfseries{Must}}} implement lookup to facilitate getting path from shorthand code
+\item {\itshape {\bfseries{Should}}} include setting up git branch as appropriate
+\end{DoxyEnumerate}
+\end{DoxyEnumerate}\hypertarget{md_README_autotoc_md10}{}\doxysubsection{Should (up to 10\% for each top level feature)}\label{md_README_autotoc_md10}
+
+\begin{DoxyEnumerate}
+\item Include mechanism for renaming features (subtrees)
+\item Include mechanism for moving feature to new location in tree (folder hierarchy)
+\item Output tree diagram -\/ P\+BS or W\+BS (svg, using plantuml)
+\begin{DoxyEnumerate}
+\item Requires tree walk (iterative or recursive)
+\item {\itshape {\bfseries{Must}}} exclude folders that start with a \textquotesingle{}.\textquotesingle{}
+\item {\itshape {\bfseries{Should}}} use the plantuml tool
+\item {\itshape {\bfseries{Could}}} implement from scratch (much harder, more marks)
+\end{DoxyEnumerate}
+\item Time/workload estimate information stored in files in subfolders
+\begin{DoxyEnumerate}
+\item {\itshape {\bfseries{Should}}} have mechanisms for adding these from the program not just editing the files
+\item {\itshape {\bfseries{Should}}} include subtrees costs in parent tree total
+\end{DoxyEnumerate}
+\item Time/workload added to output diagram
+\begin{DoxyEnumerate}
+\item {\itshape {\bfseries{Could}}} also produce Gantt chart (using plantuml)
+\end{DoxyEnumerate}
+\end{DoxyEnumerate}\hypertarget{md_README_autotoc_md11}{}\doxysubsection{Could (up to 10\% for each top level feature)}\label{md_README_autotoc_md11}
+
+\begin{DoxyEnumerate}
+\item Output diagram includes links (when used in browser, for example)
+\begin{DoxyEnumerate}
+\item {\itshape {\bfseries{Should}}} use plantuml to do this
+\end{DoxyEnumerate}
+\item Dependencies information across tree branches
+\begin{DoxyEnumerate}
+\item {\itshape {\bfseries{Must}}} identify relevant other paths in tree to do this
+\end{DoxyEnumerate}
+\end{DoxyEnumerate}\hypertarget{md_README_autotoc_md12}{}\doxysubsection{Elite challenges (\char`\"{}\+Won\textquotesingle{}t do\char`\"{} in Mo\+S\+Co\+W terms) (up to 20\% for each top level feature)}\label{md_README_autotoc_md12}
+
+\begin{DoxyEnumerate}
+\item Guided work breakdown wizard (Slightly advanced, would require interactive questions/answer handling)
+\begin{DoxyEnumerate}
+\item Needs a number of sub-\/features, such as minimum time allocation threshold, user input parsing
+\end{DoxyEnumerate}
+\item Multi-\/user (Advanced, would require some form of permissions model)
+\begin{DoxyEnumerate}
+\item may be best done using a traditional S\+QL database, but can use flat files. Complex task.
+\end{DoxyEnumerate}
+\item Available as web application (Advanced, probably easiest creating a simple embedded server)
+\begin{DoxyEnumerate}
+\item sample code for simple communications between applications will be covered
+\end{DoxyEnumerate}
+\item G\+O\+AP recommendation of suitable pathway (Advanced, can use existing G\+O\+AP library, however)
+\begin{DoxyEnumerate}
+\item G\+O\+AP uses a \textquotesingle{}heap\textquotesingle{} data structure 
+\end{DoxyEnumerate}
+\end{DoxyEnumerate}

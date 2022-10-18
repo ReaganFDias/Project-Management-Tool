@@ -1,0 +1,13 @@
+<map id="menu.c" name="menu.c">
+<area shape="rect" id="node1" title=" " alt="" coords="289,5,360,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="138,155,204,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="229,155,300,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="324,155,394,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="419,155,494,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="539,155,646,181"/>
+<area shape="rect" id="node7" href="$create__directory_8c.html" title=" " alt="" coords="524,80,661,107"/>
+<area shape="rect" id="node8" href="$rename_8c.html" title=" " alt="" coords="36,80,119,107"/>
+<area shape="rect" id="node9" href="$delete_8c.html" title=" " alt="" coords="143,80,218,107"/>
+<area shape="rect" id="node10" href="$repository_8c.html" title=" " alt="" coords="402,80,500,107"/>
+<area shape="rect" id="node11" href="$add__tag_8c.html" title=" " alt="" coords="242,80,327,107"/>
+</map>

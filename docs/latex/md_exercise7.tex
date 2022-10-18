@@ -1,0 +1,137 @@
+Planning is the keystone of successful programming, but it need not all be dry paperwork. The idea of experimenting with code in a series of feasibility studies can really help identify which approach to take.
+
+In this exercise, you have some thinking to do, and you should get together with others in your peer group (other students) to discuss ideas.
+
+First, though, grab a copy of this project by going to it on C\+S\+Git\+Lab and using the \char`\"{}\+Fork\char`\"{} button near the top right corner.
+
+
+
+Please set your version of the project to \char`\"{}private\char`\"{} after forking.\hypertarget{md_exercise7_autotoc_md1}{}\doxysection{Goals}\label{md_exercise7_autotoc_md1}
+Identify the key goals you need to complete for the coursework
+
+
+\begin{DoxyEnumerate}
+\item Being able to write functions in different files
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item The different functions should be able to call on each other when needed
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item All the \textquotesingle{}musts\textquotesingle{} should be completed for the Project
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Having good practices throughout my code -\/ eg. using seperate files instead of writing my code in one large file
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Using Plantuml -\/ I would need to use plantuml in order to get high marks so learning about that would be very helpful
+\end{DoxyEnumerate}\hypertarget{md_exercise7_autotoc_md2}{}\doxysection{Requirements to fulfill goals}\label{md_exercise7_autotoc_md2}
+What do you need to be able to meet those goals? This can include clearer specifications, tests (what needs testing, how to test it?), knowledge etc.
+
+
+\begin{DoxyEnumerate}
+\item Testing code that i have written -\/ week7 tests, giving in test data and reviewing the outcome
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Following the specifications -\/ I would need to follow the specification and create the project as intended
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item More knowlege about linking files together -\/ This project works with different files and i would need to be able to link them together
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Learning about new software -\/ Plantuml is a piece of software that i haven\textquotesingle{}t used before so learning about it would be very helpful
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Learning about good practices -\/ Learning about good practices would make my code easier to write,read and modify
+\end{DoxyEnumerate}\hypertarget{md_exercise7_autotoc_md3}{}\doxysection{Dependencies (mapping goals/requirements etc)}\label{md_exercise7_autotoc_md3}
+Which requirements relate to which goals -\/ think about drawing out a Product Breakdown for the coursework
+
+
+\begin{DoxyEnumerate}
+\item moving tags depends on finding tags ~\newline
+
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item creating a git repository depends on creating a project
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item the wizard depends on every other function that will be created
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item creating a plantuml file will depend on finding and locating folders/directories
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item renaming files will depend on creating files/projects
+\end{DoxyEnumerate}
+
+{\itshape {\bfseries{Hint}}}\+: This might look something like this\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{graph LR}
+\DoxyCodeLine{}
+\DoxyCodeLine{    }
+\DoxyCodeLine{    Project -\/-\/> 1\_must\_haves}
+\DoxyCodeLine{    subgraph "Must have"}
+\DoxyCodeLine{    1\_must\_haves -\/-\/> 1\_create\_folder\_structure}
+\DoxyCodeLine{    1\_must\_haves -\/-\/> 2\_abort\_if\_exists}
+\DoxyCodeLine{    1\_must\_haves -\/-\/> 3\_initialise\_git}
+\DoxyCodeLine{    1\_must\_haves -\/-\/> 4\_feature\_management}
+\DoxyCodeLine{    end}
+\DoxyCodeLine{    }
+\DoxyCodeLine{    4\_feature\_management -\/-\/> manage\_features}
+\DoxyCodeLine{    subgraph "manage features"}
+\DoxyCodeLine{        manage\_features(Manage Features)}
+\DoxyCodeLine{        manage\_features -\/-\/> 1\_shorthand\_codes}
+\DoxyCodeLine{        manage\_features -\/-\/> 2\_shorthand\_lookup}
+\DoxyCodeLine{        manage\_features -\/-\/> 3\_git\_branch\_per\_feature}
+\DoxyCodeLine{    end}
+\DoxyCodeLine{ }
+\DoxyCodeLine{    Project -\/-\/> 2\_should\_haves}
+\DoxyCodeLine{    subgraph "Should have"}
+\DoxyCodeLine{    2\_should\_haves -\/-\/> 5\_renaming\_features}
+\DoxyCodeLine{    2\_should\_haves -\/-\/> 6\_moving\_features}
+\DoxyCodeLine{    2\_should\_haves -\/-\/> 7\_tree\_diagram}
+\DoxyCodeLine{    2\_should\_haves -\/-\/> 8\_time\_workload\_data}
+\DoxyCodeLine{    2\_should\_haves -\/-\/> 9\_time\_workload\_on\_diagram}
+\DoxyCodeLine{    end}
+\DoxyCodeLine{    }
+\DoxyCodeLine{    Project -\/-\/> 3\_could\_haves}
+\DoxyCodeLine{    Project -\/-\/> 4\_wont\_haves}
+\DoxyCodeLine{    Project -\/-\/> readme.md}
+\end{DoxyCode}
+\hypertarget{md_exercise7_autotoc_md4}{}\doxysection{Plan\+:}\label{md_exercise7_autotoc_md4}
+\hypertarget{md_exercise7_autotoc_md5}{}\doxysubsection{What experimental code can I write now? (feasibility studies)}\label{md_exercise7_autotoc_md5}
+
+\begin{DoxyEnumerate}
+\item Creating directory -\/ creating feature
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item git directory -\/ creating git repository
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item the main file -\/ \mbox{\hyperlink{pm_8c}{pm.\+c}}
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item renaming files -\/ renaming features
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Trying to recursivly look through a directory
+\end{DoxyEnumerate}
+
+{\itshape {\bfseries{Hint}}}\+: try modifying the make file created in week4, consider the code in the videos for ideas about automating your code build, and the video on restucturing your project folder, for instance.\hypertarget{md_exercise7_autotoc_md6}{}\doxysubsection{What were the results of trying things out?}\label{md_exercise7_autotoc_md6}
+
+\begin{DoxyEnumerate}
+\item Using the system function is the easiest way of creating directories
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item using the system funciton and then passing in the bash command for git produced a repository. However, i would need to create a .md file and then push it in order to push other items to the remote repository
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item the bash \textquotesingle{}mv\textquotesingle{} function was useful for renaming files
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item you could look into directories through recursion or itteration
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item i can link files through header files which is useful for \mbox{\hyperlink{pm_8c}{pm.\+c}} 
+\end{DoxyEnumerate}

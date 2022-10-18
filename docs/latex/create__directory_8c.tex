@@ -1,0 +1,44 @@
+\hypertarget{create__directory_8c}{}\doxysection{create\+\_\+directory.\+c File Reference}
+\label{create__directory_8c}\index{create\_directory.c@{create\_directory.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$linux/limits.\+h$>$}\newline
+Include dependency graph for create\+\_\+directory.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{create__directory_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{create__directory_8c_af9aa0b2195b2d90f11beb49145cd06f7}{create\+\_\+directory}} (char $\ast$name)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+char \mbox{\hyperlink{create__directory_8c_ab64ac1b5d2b80d2a4b5119d5602746f7}{temp}} \mbox{[}50\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{create__directory_8c_af9aa0b2195b2d90f11beb49145cd06f7}\label{create__directory_8c_af9aa0b2195b2d90f11beb49145cd06f7}} 
+\index{create\_directory.c@{create\_directory.c}!create\_directory@{create\_directory}}
+\index{create\_directory@{create\_directory}!create\_directory.c@{create\_directory.c}}
+\doxysubsubsection{\texorpdfstring{create\_directory()}{create\_directory()}}
+{\footnotesize\ttfamily int create\+\_\+directory (\begin{DoxyParamCaption}\item[{char $\ast$}]{name }\end{DoxyParamCaption})}
+
+The access function checks if a file already exists with the same name. If the access function returns a 0 then that means that the file can\textquotesingle{}t be created because another file with the same name already exists and an exit status will show an error to the .
+
+Here I create a parent directory called whatever the user inputed and I can create sub directories within the parent directory. The for loops runs until it reaches the end of the array called \textquotesingle{}folders\textquotesingle{} which means that it would have created all the subdirectories needed by the end.
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{create__directory_8c_ab64ac1b5d2b80d2a4b5119d5602746f7}\label{create__directory_8c_ab64ac1b5d2b80d2a4b5119d5602746f7}} 
+\index{create\_directory.c@{create\_directory.c}!temp@{temp}}
+\index{temp@{temp}!create\_directory.c@{create\_directory.c}}
+\doxysubsubsection{\texorpdfstring{temp}{temp}}
+{\footnotesize\ttfamily char temp\mbox{[}50\mbox{]}}
+

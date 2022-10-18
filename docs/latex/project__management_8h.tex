@@ -1,0 +1,146 @@
+\hypertarget{project__management_8h}{}\doxysection{project\+\_\+management.\+h File Reference}
+\label{project__management_8h}\index{project\_management.h@{project\_management.h}}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{project__management_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{project__management_8h_af9aa0b2195b2d90f11beb49145cd06f7}{create\+\_\+directory}} (char $\ast$name)
+\item 
+int \mbox{\hyperlink{project__management_8h_a328811fdd70fae87d65bafce0e226f2b}{rename\+\_\+project}} (char $\ast$oldname, char $\ast$newname)
+\item 
+int \mbox{\hyperlink{project__management_8h_a2f40dd1d4a02f8dfad977b767b3d86ca}{delete\+\_\+project}} (char $\ast$name)
+\item 
+int \mbox{\hyperlink{project__management_8h_aee4e6e9478638c101939a8fd5bff48cf}{add\+\_\+tag}} (char $\ast$name)
+\item 
+char $\ast$ \mbox{\hyperlink{project__management_8h_ad3cce6410b7916f0c74d478f92c9daa9}{check\+\_\+tag}} (char $\ast$tag)
+\item 
+char $\ast$ \mbox{\hyperlink{project__management_8h_a0847f07e0f6ebc8ea7677016ed4dd357}{search\+\_\+tag}} (char $\ast$tag)
+\item 
+char $\ast$ \mbox{\hyperlink{project__management_8h_a4f2757d378ab9125371bc5ad972e486d}{find\+\_\+tag}} (char $\ast$tag)
+\item 
+void \mbox{\hyperlink{project__management_8h_a649d0b2e95e1b780f1e37d1a2bb9f94d}{move\+\_\+tag}} (char $\ast$tag1, char $\ast$tag2)
+\item 
+int \mbox{\hyperlink{project__management_8h_ae63dbae881807b7dba5e7241a46774c7}{read\+\_\+file}} ()
+\item 
+int \mbox{\hyperlink{project__management_8h_a491dea7bdb354b3841d1b3c98c50dc59}{add\+\_\+workload}} (char $\ast$number)
+\item 
+int \mbox{\hyperlink{project__management_8h_a7764187a748fb4ff4cbe3b8e7caaba57}{wizard}} ()
+\item 
+int \mbox{\hyperlink{project__management_8h_ac90f733114d6c4dcdb65c7de9ce88ecc}{repository}} (char $\ast$name)
+\item 
+int \mbox{\hyperlink{project__management_8h_a9075f0c429f0dd7bcba7ad434477baf5}{create\+\_\+plantuml}} (char $\ast$name)
+\item 
+int \mbox{\hyperlink{project__management_8h_ab9190a68464a470ce5f2e9dde08bd30d}{create\+\_\+subdirectory}} (char $\ast$name)
+\item 
+int \mbox{\hyperlink{project__management_8h_a25f7d58800351ec719c69bca31a1cdf1}{read\+\_\+menu}} ()
+\item 
+int \mbox{\hyperlink{project__management_8h_ac8d237accd7d83b9f2311f6fa9a77465}{moving\+\_\+file}} (char $\ast$oldpath, char $\ast$newpath)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{project__management_8h_aee4e6e9478638c101939a8fd5bff48cf}\label{project__management_8h_aee4e6e9478638c101939a8fd5bff48cf}} 
+\index{project\_management.h@{project\_management.h}!add\_tag@{add\_tag}}
+\index{add\_tag@{add\_tag}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{add\_tag()}{add\_tag()}}
+{\footnotesize\ttfamily int add\+\_\+tag (\begin{DoxyParamCaption}\item[{char $\ast$}]{name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_a491dea7bdb354b3841d1b3c98c50dc59}\label{project__management_8h_a491dea7bdb354b3841d1b3c98c50dc59}} 
+\index{project\_management.h@{project\_management.h}!add\_workload@{add\_workload}}
+\index{add\_workload@{add\_workload}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{add\_workload()}{add\_workload()}}
+{\footnotesize\ttfamily int add\+\_\+workload (\begin{DoxyParamCaption}\item[{char $\ast$}]{number }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_ad3cce6410b7916f0c74d478f92c9daa9}\label{project__management_8h_ad3cce6410b7916f0c74d478f92c9daa9}} 
+\index{project\_management.h@{project\_management.h}!check\_tag@{check\_tag}}
+\index{check\_tag@{check\_tag}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{check\_tag()}{check\_tag()}}
+{\footnotesize\ttfamily char$\ast$ check\+\_\+tag (\begin{DoxyParamCaption}\item[{char $\ast$}]{tag }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_af9aa0b2195b2d90f11beb49145cd06f7}\label{project__management_8h_af9aa0b2195b2d90f11beb49145cd06f7}} 
+\index{project\_management.h@{project\_management.h}!create\_directory@{create\_directory}}
+\index{create\_directory@{create\_directory}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{create\_directory()}{create\_directory()}}
+{\footnotesize\ttfamily int create\+\_\+directory (\begin{DoxyParamCaption}\item[{char $\ast$}]{name }\end{DoxyParamCaption})}
+
+The access function checks if a file already exists with the same name. If the access function returns a 0 then that means that the file can\textquotesingle{}t be created because another file with the same name already exists and an exit status will show an error to the .
+
+Here I create a parent directory called whatever the user inputed and I can create sub directories within the parent directory. The for loops runs until it reaches the end of the array called \textquotesingle{}folders\textquotesingle{} which means that it would have created all the subdirectories needed by the end.\mbox{\Hypertarget{project__management_8h_a9075f0c429f0dd7bcba7ad434477baf5}\label{project__management_8h_a9075f0c429f0dd7bcba7ad434477baf5}} 
+\index{project\_management.h@{project\_management.h}!create\_plantuml@{create\_plantuml}}
+\index{create\_plantuml@{create\_plantuml}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{create\_plantuml()}{create\_plantuml()}}
+{\footnotesize\ttfamily int create\+\_\+plantuml (\begin{DoxyParamCaption}\item[{char $\ast$}]{name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_ab9190a68464a470ce5f2e9dde08bd30d}\label{project__management_8h_ab9190a68464a470ce5f2e9dde08bd30d}} 
+\index{project\_management.h@{project\_management.h}!create\_subdirectory@{create\_subdirectory}}
+\index{create\_subdirectory@{create\_subdirectory}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{create\_subdirectory()}{create\_subdirectory()}}
+{\footnotesize\ttfamily int create\+\_\+subdirectory (\begin{DoxyParamCaption}\item[{char $\ast$}]{name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_a2f40dd1d4a02f8dfad977b767b3d86ca}\label{project__management_8h_a2f40dd1d4a02f8dfad977b767b3d86ca}} 
+\index{project\_management.h@{project\_management.h}!delete\_project@{delete\_project}}
+\index{delete\_project@{delete\_project}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{delete\_project()}{delete\_project()}}
+{\footnotesize\ttfamily int delete\+\_\+project (\begin{DoxyParamCaption}\item[{char $\ast$}]{name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_a4f2757d378ab9125371bc5ad972e486d}\label{project__management_8h_a4f2757d378ab9125371bc5ad972e486d}} 
+\index{project\_management.h@{project\_management.h}!find\_tag@{find\_tag}}
+\index{find\_tag@{find\_tag}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{find\_tag()}{find\_tag()}}
+{\footnotesize\ttfamily char$\ast$ find\+\_\+tag (\begin{DoxyParamCaption}\item[{char $\ast$}]{tag }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_a649d0b2e95e1b780f1e37d1a2bb9f94d}\label{project__management_8h_a649d0b2e95e1b780f1e37d1a2bb9f94d}} 
+\index{project\_management.h@{project\_management.h}!move\_tag@{move\_tag}}
+\index{move\_tag@{move\_tag}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{move\_tag()}{move\_tag()}}
+{\footnotesize\ttfamily void move\+\_\+tag (\begin{DoxyParamCaption}\item[{char $\ast$}]{tag1,  }\item[{char $\ast$}]{tag2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_ac8d237accd7d83b9f2311f6fa9a77465}\label{project__management_8h_ac8d237accd7d83b9f2311f6fa9a77465}} 
+\index{project\_management.h@{project\_management.h}!moving\_file@{moving\_file}}
+\index{moving\_file@{moving\_file}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{moving\_file()}{moving\_file()}}
+{\footnotesize\ttfamily int moving\+\_\+file (\begin{DoxyParamCaption}\item[{char $\ast$}]{oldpath,  }\item[{char $\ast$}]{newpath }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_ae63dbae881807b7dba5e7241a46774c7}\label{project__management_8h_ae63dbae881807b7dba5e7241a46774c7}} 
+\index{project\_management.h@{project\_management.h}!read\_file@{read\_file}}
+\index{read\_file@{read\_file}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{read\_file()}{read\_file()}}
+{\footnotesize\ttfamily int read\+\_\+file (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_a25f7d58800351ec719c69bca31a1cdf1}\label{project__management_8h_a25f7d58800351ec719c69bca31a1cdf1}} 
+\index{project\_management.h@{project\_management.h}!read\_menu@{read\_menu}}
+\index{read\_menu@{read\_menu}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{read\_menu()}{read\_menu()}}
+{\footnotesize\ttfamily int read\+\_\+menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_a328811fdd70fae87d65bafce0e226f2b}\label{project__management_8h_a328811fdd70fae87d65bafce0e226f2b}} 
+\index{project\_management.h@{project\_management.h}!rename\_project@{rename\_project}}
+\index{rename\_project@{rename\_project}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{rename\_project()}{rename\_project()}}
+{\footnotesize\ttfamily int rename\+\_\+project (\begin{DoxyParamCaption}\item[{char $\ast$}]{oldname,  }\item[{char $\ast$}]{newname }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_ac90f733114d6c4dcdb65c7de9ce88ecc}\label{project__management_8h_ac90f733114d6c4dcdb65c7de9ce88ecc}} 
+\index{project\_management.h@{project\_management.h}!repository@{repository}}
+\index{repository@{repository}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{repository()}{repository()}}
+{\footnotesize\ttfamily int repository (\begin{DoxyParamCaption}\item[{char $\ast$}]{name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_a0847f07e0f6ebc8ea7677016ed4dd357}\label{project__management_8h_a0847f07e0f6ebc8ea7677016ed4dd357}} 
+\index{project\_management.h@{project\_management.h}!search\_tag@{search\_tag}}
+\index{search\_tag@{search\_tag}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{search\_tag()}{search\_tag()}}
+{\footnotesize\ttfamily char$\ast$ search\+\_\+tag (\begin{DoxyParamCaption}\item[{char $\ast$}]{tag }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{project__management_8h_a7764187a748fb4ff4cbe3b8e7caaba57}\label{project__management_8h_a7764187a748fb4ff4cbe3b8e7caaba57}} 
+\index{project\_management.h@{project\_management.h}!wizard@{wizard}}
+\index{wizard@{wizard}!project\_management.h@{project\_management.h}}
+\doxysubsubsection{\texorpdfstring{wizard()}{wizard()}}
+{\footnotesize\ttfamily int wizard (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+

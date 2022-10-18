@@ -1,0 +1,178 @@
+\begin{theindex}
+
+  \item {add\_tag}
+    \subitem {add\_tag.c}, \hyperpage{9}
+    \subitem {project\_management.h}, \hyperpage{21}
+  \item {add\_tag.c}, \hyperpage{9}
+    \subitem {add\_tag}, \hyperpage{9}
+    \subitem {filename1}, \hyperpage{10}
+  \item {add\_workload}
+    \subitem {add\_workload.c}, \hyperpage{10}
+    \subitem {project\_management.h}, \hyperpage{21}
+  \item {add\_workload.c}, \hyperpage{10}
+    \subitem {add\_workload}, \hyperpage{10}
+    \subitem {filename}, \hyperpage{11}
+
+  \indexspace
+
+  \item {check\_tag}
+    \subitem {check\_tag.c}, \hyperpage{12}
+    \subitem {project\_management.h}, \hyperpage{21}
+  \item {check\_tag.c}, \hyperpage{11}
+    \subitem {check\_tag}, \hyperpage{12}
+  \item {create\_directory}
+    \subitem {create\_directory.c}, \hyperpage{12}
+    \subitem {project\_management.h}, \hyperpage{21}
+  \item {create\_directory.c}, \hyperpage{12}
+    \subitem {create\_directory}, \hyperpage{12}
+    \subitem {temp}, \hyperpage{13}
+  \item {create\_plantuml}
+    \subitem {create\_plantuml.c}, \hyperpage{14}
+    \subitem {project\_management.h}, \hyperpage{22}
+  \item {create\_plantuml.c}, \hyperpage{13}
+    \subitem {create\_plantuml}, \hyperpage{14}
+  \item {create\_subdirectory}
+    \subitem {create\_subdirectory.c}, \hyperpage{14}
+    \subitem {project\_management.h}, \hyperpage{22}
+  \item {create\_subdirectory.c}, \hyperpage{14}
+    \subitem {create\_subdirectory}, \hyperpage{14}
+    \subitem {temp}, \hyperpage{15}
+
+  \indexspace
+
+  \item {delete.c}, \hyperpage{15}
+    \subitem {delete\_project}, \hyperpage{15}
+    \subitem {temp2}, \hyperpage{16}
+  \item {delete\_project}
+    \subitem {delete.c}, \hyperpage{15}
+    \subitem {project\_management.h}, \hyperpage{22}
+  \item {DrawUML.txt}, \hyperpage{16}
+
+  \indexspace
+
+  \item {exercise7.md}, \hyperpage{16}
+
+  \indexspace
+
+  \item {filename}
+    \subitem {add\_workload.c}, \hyperpage{11}
+  \item {filename1}
+    \subitem {add\_tag.c}, \hyperpage{10}
+  \item {find\_tag}
+    \subitem {find\_tag.c}, \hyperpage{16}
+    \subitem {project\_management.h}, \hyperpage{22}
+  \item {find\_tag.c}, \hyperpage{16}
+    \subitem {find\_tag}, \hyperpage{16}
+
+  \indexspace
+
+  \item {list\_plantuml}
+    \subitem {list\_plantuml.c}, \hyperpage{17}
+  \item {list\_plantuml.c}, \hyperpage{17}
+    \subitem {list\_plantuml}, \hyperpage{17}
+
+  \indexspace
+
+  \item {main}
+    \subitem {pm.c}, \hyperpage{20}
+  \item {menu.txt}, \hyperpage{18}
+  \item {move\_tag}
+    \subitem {move\_tag.c}, \hyperpage{18}
+    \subitem {project\_management.h}, \hyperpage{22}
+  \item {move\_tag.c}, \hyperpage{18}
+    \subitem {move\_tag}, \hyperpage{18}
+  \item {moving\_file}
+    \subitem {moving\_files.c}, \hyperpage{19}
+    \subitem {project\_management.h}, \hyperpage{22}
+  \item {moving\_files.c}, \hyperpage{18}
+    \subitem {moving\_file}, \hyperpage{19}
+    \subitem {temp4}, \hyperpage{19}
+
+  \indexspace
+
+  \item {pm.c}, \hyperpage{20}
+    \subitem {main}, \hyperpage{20}
+  \item {project\_management.h}, \hyperpage{20}
+    \subitem {add\_tag}, \hyperpage{21}
+    \subitem {add\_workload}, \hyperpage{21}
+    \subitem {check\_tag}, \hyperpage{21}
+    \subitem {create\_directory}, \hyperpage{21}
+    \subitem {create\_plantuml}, \hyperpage{22}
+    \subitem {create\_subdirectory}, \hyperpage{22}
+    \subitem {delete\_project}, \hyperpage{22}
+    \subitem {find\_tag}, \hyperpage{22}
+    \subitem {move\_tag}, \hyperpage{22}
+    \subitem {moving\_file}, \hyperpage{22}
+    \subitem {read\_file}, \hyperpage{23}
+    \subitem {read\_menu}, \hyperpage{23}
+    \subitem {rename\_project}, \hyperpage{23}
+    \subitem {repository}, \hyperpage{23}
+    \subitem {search\_tag}, \hyperpage{23}
+    \subitem {wizard}, \hyperpage{23}
+
+  \indexspace
+
+  \item {read\_file}
+    \subitem {project\_management.h}, \hyperpage{23}
+    \subitem {read\_file.c}, \hyperpage{24}
+  \item {read\_file.c}, \hyperpage{24}
+    \subitem {read\_file}, \hyperpage{24}
+  \item {read\_menu}
+    \subitem {project\_management.h}, \hyperpage{23}
+    \subitem {read\_menu.c}, \hyperpage{25}
+  \item {read\_menu.c}, \hyperpage{24}
+    \subitem {read\_menu}, \hyperpage{25}
+  \item {README.md}, \hyperpage{25}
+  \item {rename.c}, \hyperpage{25}
+    \subitem {rename\_project}, \hyperpage{26}
+    \subitem {temp}, \hyperpage{26}
+  \item {rename\_project}
+    \subitem {project\_management.h}, \hyperpage{23}
+    \subitem {rename.c}, \hyperpage{26}
+  \item {repository}
+    \subitem {project\_management.h}, \hyperpage{23}
+    \subitem {repository.c}, \hyperpage{27}
+  \item {repository.c}, \hyperpage{26}
+    \subitem {repository}, \hyperpage{27}
+    \subitem {temp15}, \hyperpage{27}
+    \subitem {temp16}, \hyperpage{27}
+    \subitem {temp17}, \hyperpage{27}
+    \subitem {temp18}, \hyperpage{27}
+
+  \indexspace
+
+  \item {search\_tag}
+    \subitem {project\_management.h}, \hyperpage{23}
+    \subitem {searching\_tag.c}, \hyperpage{28}
+  \item {searching\_tag.c}, \hyperpage{28}
+    \subitem {search\_tag}, \hyperpage{28}
+
+  \indexspace
+
+  \item {temp}
+    \subitem {create\_directory.c}, \hyperpage{13}
+    \subitem {create\_subdirectory.c}, \hyperpage{15}
+    \subitem {rename.c}, \hyperpage{26}
+  \item {temp15}
+    \subitem {repository.c}, \hyperpage{27}
+  \item {temp16}
+    \subitem {repository.c}, \hyperpage{27}
+  \item {temp17}
+    \subitem {repository.c}, \hyperpage{27}
+  \item {temp18}
+    \subitem {repository.c}, \hyperpage{27}
+  \item {temp2}
+    \subitem {delete.c}, \hyperpage{16}
+  \item {temp4}
+    \subitem {moving\_files.c}, \hyperpage{19}
+
+  \indexspace
+
+  \item {wizard}
+    \subitem {project\_management.h}, \hyperpage{23}
+    \subitem {wizard.c}, \hyperpage{29}
+  \item {wizard.c}, \hyperpage{28}
+    \subitem {wizard}, \hyperpage{29}
+  \item {wizard\_menu.txt}, \hyperpage{29}
+
+\end{theindex}

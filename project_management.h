@@ -1,0 +1,16 @@
+int create_directory(char*name);
+int rename_project(char*oldname, char*newname);
+int delete_project(char*name);
+int add_tag(char*name);
+char* check_tag(char *tag);
+char* search_tag(char *tag);
+char * find_tag(char *tag);
+void move_tag(char *tag1, char *tag2);
+int read_file();
+int add_workload(char*number);
+int wizard();
+int repository(char*name);
+int create_plantuml(char *name);
+int create_subdirectory(char*name);
+int read_menu();
+int moving_file(char*oldpath, char*newpath);
